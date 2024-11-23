@@ -69,9 +69,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #    define OLED_FONT_END 195
 #endif
 
-// #if !defined(LAYER_STATE_8BIT) && !defined(LAYER_STATE_16BIT) && !defined(LAYER_STATE_32BIT)
-// #    define LAYER_STATE_8BIT
-// #endif
+#if !defined(LAYER_STATE_8BIT) && !defined(LAYER_STATE_16BIT) && !defined(LAYER_STATE_32BIT)
+#    define LAYER_STATE_8BIT
+#endif
 
 // To squeeze firmware size
 #undef LOCKING_SUPPORT_ENABLE
