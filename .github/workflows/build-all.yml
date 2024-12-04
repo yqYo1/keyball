@@ -32,7 +32,7 @@ jobs:
         # keyboard: [ keyball39, keyball44, keyball61, keyball46, one47 ]
         # keymap: [ test, default, via ]
         keyboard: [ keyball61 ]
-        keymap: [ custom ]
+        keymap: [ custom, custom_wo_via ]
 
     uses: ./.github/workflows/build-firmware.yml
     with:
